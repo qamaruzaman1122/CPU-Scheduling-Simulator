@@ -139,7 +139,7 @@ CPU utilization is 88.57% for every algorithm because the CPU is idle from time 
 
 ### Average waiting time
 
-![Average waiting time by algorithm](screenshots/comparison_waiting_time.png)
+![Average waiting time by algorithm](comparison_waiting_time.png)
 
 ### Discussion
 
@@ -153,7 +153,7 @@ CPU utilization is 88.57% for every algorithm because the CPU is idle from time 
 
 New processes enter the top queue (quantum 2). A process that uses its whole quantum without finishing drops to the next queue (quantum 4, then 8). The CPU always serves the highest non-empty queue, so short jobs finish quickly.
 
-![MLFQ Gantt chart](screenshots/gantt_mlfq.png)
+![MLFQ Gantt chart](gantt_mlfq.png)
 
 On the sample dataset MLFQ gives an average response time of 2.00, the best of all algorithms, with an average waiting time of 11.00.
 
