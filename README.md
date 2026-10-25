@@ -94,7 +94,7 @@ All results below use the sample dataset above with a Round Robin quantum of 5.
 
 ### Gantt charts
 
-![Gantt charts of all algorithms](screenshots/gantt_all_algorithms.png)
+![Gantt charts of all algorithms](gantt_all_algorithms.png)
 
 The text version of the same charts (as printed by the program):
 
